@@ -1,8 +1,35 @@
 <html>
     <head>
         <script src="./backend.js"></script>
+        <style>
+            label {
+                display: block;
+            }
+        </style>
     </head>
     <body>
         <h1 align="center">Your Title Here!</h1>
+
+        <h2>Please Provide Your Address Details:</h2>
+        <div>
+            <form>
+                <label>
+                    Address Line 1:
+                    <input type="text" />
+                </label>
+                <br/>
+                <label>
+                    Postcode:
+                    <input type="text" />
+                </label>
+                <br/>
+                <label>
+                    City:
+                    <input type="text" />
+                <label>
+                <br/>
+                <button onClick="order()" style="width: 80px; height: 30px">Order</button>
+            <form>
+        </div>
     </body>
 </html>
