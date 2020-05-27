@@ -16,7 +16,7 @@ Step 1.1:Create a local repository
   - or use touch command to create an empty file
   
 Step 1.2: clone a repo from Github
-- use git clone <URL> command
+- use git clone <url> command
 
 Step 2: Check status of git repo
 - use git status command to check files' status
