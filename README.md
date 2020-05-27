@@ -10,34 +10,34 @@ Template for InfPALS Git Advanced Workshop.
 
 **Step 1.1:Create a local repository**
 - in terminal, move to the directory where you want to put the project
-- run 'git init' command
+- run `git init` command
 - add files
   - either write some codes
   - or use touch command to create an empty file
   
 **Step 1.2: clone a repo from Github**
-- use 'git clone <url>' command
+- use `git clone <url>` command
 
 **Step 2: Check status of git repo**
-- use 'git status' command to check files' status
+- use `git status` command to check files' status
 
 **Step 3: Add/commit files**
-- use 'git add <filename>' to add files to staging environment 
+- use `git add <filename>` to add files to staging environment 
   (file is not yet been added to a commit, but it's about to be)
-- use 'git commit -m "Your message about the commit"'
-- use 'git log' to see all the commits
+- use `git commit -m "Your message about the commit"`
+- use `git log` to see all the commits
 
 **Step 4: Create new branches**
-- use 'git branch <branch_name>' command to create a new branch 
+- use `git branch <branch_name>` command to create a new branch 
   (branch allows moving back and forth between "states" of a project)
-- to switch to a branch, use 'git checkout <branch_name>' command
-- or use 'git checkout -b <my_branch_name>' to create a new brach and checkout to it
+- to switch to a branch, use `git checkout <branch_name>` command
+- or use `git checkout -b <my_branch_name>` to create a new brach and checkout to it
 
 **Step 5: Create new repository on Github (if you want to work with a team)**
-- to add a local repo that was already created, use 'git add remote origin <github_URL>' command
+- to add a local repo that was already created, use `git add remote origin <github_URL>` command
 
 **Step6: Push a change to Github**
-- use 'git push origin <your_branch_name>' to push a branch 
+- use `git push origin <your_branch_name>` to push a branch 
   ('origin' here is just shorthand for the remote repository's URL on Github)
 - this allows others to see the changes you made, and if the repo owner approves, this branch will merge with repo's master
 
@@ -51,4 +51,4 @@ Template for InfPALS Git Advanced Workshop.
 
 
 **Step 9: Get new changes from Github**
-- now, to update the local master branch for new changes, use 'git pull origin master'
+- now, to update the local master branch for new changes, use `git pull origin master`
