@@ -8,12 +8,15 @@ Step 0: Install git & create Github account
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - https://github.com/
 
-Step 1:Create a local repository
+Step 1.1:Create a local repository
 - in terminal, move to the directory where you want to put the project
 - run git init command
 - add files
   - either write some codes
   - or use touch command to create an empty file
+  
+Step 1.2: clone a repo from Github
+- use git clone <URL> command
 
 Step 2: Check status of git repo
 - use git status command to check files' status
