@@ -16,6 +16,8 @@ Template for InfPALS Git Advanced Workshop.
   - or use touch command to create an empty file
 - to associate a local repo with remote Github repo, use `git remote add origin <URL>`
 - use `git remote -v` to check the origin
+- to set default remote branch for the current local repo, `git branch --set-upstream <remote-branch>`,
+  another shortcut is to use `-u` flag to use `git push -u origin <local-branch>`
 - to change the remote repo, use `git remote set-url origin <URL>`
 
 
