@@ -64,7 +64,8 @@ Template for InfPALS Git Advanced Workshop.
 **Step 9: Get new changes from Github**
 - now, to update the local master branch for new changes, use `git pull origin master`
 
-
+--- Possible Errors
+- refusing to merge unrelated histories: https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error#:~:text=historiesgit%20merge-,The%20%E2%80%9Cfatal%3A%20refusing%20to%20merge%20unrelated%20histories%E2%80%9D%20Git%20error,project%20and%2C%20somehow%2C%20the%20
 
 
 - A great resources: https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/#:~:text=If%20you've%20copied%20a,URL%20of%20the%20remote%20repo 
