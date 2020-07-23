@@ -43,8 +43,9 @@ Template for InfPALS Git Advanced Workshop.
 **Step 4.2: Merge branches**
 - if you want to merge branch A to master, checkout to master first and use `git merge <branch A>`
 
-**Step 4.3: Merge branches**
+**Step 4.3: Delete branches**
 - if you want to delete the branch A, use `git branch -d <branch A>`
+- if you want to delete the branch A on remote repo in github, use `git push origin --delete <branch A>`
 
 **Step 5: Create new repository on Github (if you want to work with a team)**
 - to add a local repo that was already created, use `git add remote origin <github_URL>` command
